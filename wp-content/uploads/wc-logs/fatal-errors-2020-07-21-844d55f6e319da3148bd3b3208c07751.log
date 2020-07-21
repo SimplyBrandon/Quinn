@@ -1,0 +1,46 @@
+2020-07-21T00:10:58+00:00 CRITICAL syntax error, unexpected '{' in C:\xampp\htdocs\wordpress2\wp-content\themes\quinn\functions.php on line 168
+
+2020-07-21T03:27:55+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Term as array in C:\xampp\htdocs\wordpress2\wp-content\themes\quinn\functions.php:129
+Stack trace:
+#0 C:\xampp\htdocs\wordpress2\wp-content\themes\quinn\woocommerce.php(224): get_similar_products(Object(WP_Term), 40)
+#1 C:\xampp\htdocs\wordpress2\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress2\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress2\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpress2\wp-content\themes\quinn\functions.php on line 129
+
+2020-07-21T03:28:04+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Term as array in C:\xampp\htdocs\wordpress2\wp-content\themes\quinn\functions.php:129
+Stack trace:
+#0 C:\xampp\htdocs\wordpress2\wp-content\themes\quinn\woocommerce.php(224): get_similar_products(Object(WP_Term), 40)
+#1 C:\xampp\htdocs\wordpress2\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress2\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress2\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpress2\wp-content\themes\quinn\functions.php on line 129
+
+2020-07-21T03:28:51+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on boolean in C:\xampp\htdocs\wordpress2\wp-content\themes\quinn\functions.php:153
+Stack trace:
+#0 C:\xampp\htdocs\wordpress2\wp-content\themes\quinn\woocommerce.php(226): render_product(40)
+#1 C:\xampp\htdocs\wordpress2\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress2\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress2\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpress2\wp-content\themes\quinn\functions.php on line 153
+
+2020-07-21T03:31:13+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on boolean in C:\xampp\htdocs\wordpress2\wp-content\themes\quinn\functions.php:154
+Stack trace:
+#0 C:\xampp\htdocs\wordpress2\wp-content\themes\quinn\woocommerce.php(226): render_product(40)
+#1 C:\xampp\htdocs\wordpress2\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress2\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress2\index.php(17): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpress2\wp-content\themes\quinn\functions.php on line 154
+
+2020-07-21T04:03:43+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on null in C:\xampp\htdocs\wordpress2\wp-content\themes\quinn\woocommerce.php:226
+Stack trace:
+#0 C:\xampp\htdocs\wordpress2\wp-includes\template-loader.php(106): include()
+#1 C:\xampp\htdocs\wordpress2\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress2\index.php(17): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\wordpress2\wp-content\themes\quinn\woocommerce.php on line 226
+
