@@ -11,4 +11,4 @@ Username | Password
 ---------|---------
 Demo     | password
 
-:stuck_out_tongue_closed_eye
+:stuck_out_tongue_closed_eye:
